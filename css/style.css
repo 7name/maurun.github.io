@@ -36,6 +36,11 @@ figure {
   text-align: center;
 }
 
+.sns {
+  margin-top: -2rem;
+  margin-bottom: 5rem;
+}
+
 .circle {
   border-radius: 100px;
 }
