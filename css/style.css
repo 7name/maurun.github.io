@@ -110,6 +110,13 @@ span {
   height:100%;
 }
 
+.img-note {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   max-width: 100%;
+}
+
 /* pagetop
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
