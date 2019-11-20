@@ -11,6 +11,7 @@
 
     gtag('config', 'UA-122684693-2');
   </script>
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -275,6 +276,62 @@ Twitter用ハッシュタグ：#maurun
       </div>
     </section>
   </article>
+
+
+    <article>
+      <section>
+        <h2 class="section-title" id="contact">CONTACT</h2>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <form class="formrun" action="https://form.run/api/v1/r/0l9vm40439esrdfzqnjhy0ss" method="post" data-formrun-popup>
+
+              <div class="six columns" data-formrun-class-if-success="has-success" data-formrun-class-if-error="has-danger" data-formrun-target="name">
+                <label for="name">お名前*</label>
+                <input type="text" class="u-full-width" placeholder="Name" id="name" name="お名前" data-formrun-required data-formrun-class-if-success="form-control-success" data-formrun-class-if-error="form-control-danger">
+              </div>
+
+              <div class="six columns" data-formrun-class-if-success="has-success" data-formrun-class-if-error="has-danger" data-formrun-target="email">
+                <label for="email">メールアドレス*</label>
+                <input type="text" class="u-full-width" placeholder="mail@mail.com" id="email" name="メールアドレス" data-formrun-type="email" data-formrun-class-if-success="form-control-success" data-formrun-class-if-error="form-control-danger">
+              </div>
+
+              <label for="category">カテゴリ*</label>
+              <select class="u-full-width" id="category" name="カテゴリ" data-formrun-required data-formrun-class-if-success="form-control-success" data-formrun-class-if-error="form-control-danger">
+                <option value>-</option>
+                <option value="おたより">おたより</option>
+                <option value="お仕事のご相談">お仕事のご相談</option>
+                <option value="その他">その他</option>
+              </select>
+
+              <div data-formrun-class-if-success="has-success" data-formrun-class-if-error="has-danger" data-formrun-target="message">
+                <label for="text">メッセージ*</label>
+                <textarea class="u-full-width" placeholder="Message..." id="message" name="メッセージ" data-formrun-required data-formrun-class-if-success="form-control-success" data-formrun-class-if-error="form-control-danger"></textarea>
+              </div>
+              <!-- ボット投稿をブロックするためのタグ -->
+              <div class="_formrun_gotcha">
+                <style media="screen">
+                  ._formrun_gotcha {
+                    position: absolute !important;
+                    height: 1px;
+                    width: 1px;
+                    overflow: hidden;
+                  }
+                </style>
+                <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+              </div>
+              <div class="items">
+                <button class="button-primary" type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </article>
+
 
   <footer class="bg-footer">
     <div class="items">
