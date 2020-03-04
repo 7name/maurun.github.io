@@ -78,7 +78,7 @@ span {
   background-size: cover;
   background-position: center;
   color: #fff;
-  margin-top: 20rem;
+  margin-top: 0rem;
   padding-top: 5rem;
   padding-bottom: 1rem;
 }
@@ -227,13 +227,13 @@ nav.stroke ul li a:hover:after {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 article {
-  padding: 8rem 0 7rem;
+  padding: 10rem 0 10rem;
   text-align: center;
   background-color: #fff;
 }
 
 section {
-  padding: 5rem 0 4rem;
+  padding: 5rem 0 5rem;
   background-color: #fff;
 }
 
