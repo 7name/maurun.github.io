@@ -111,13 +111,6 @@
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
 
-  .button,
-  button,
-  input[type="submit"],
-  input[type="reset"],
-  input[type="button"]
-  {font-size: 16px;}
-
 }
 
 
@@ -180,6 +173,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
+  max-width: 100%;
   display: inline-block;
   height: 60px;
   padding: 11px  50px;
