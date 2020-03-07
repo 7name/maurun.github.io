@@ -97,6 +97,10 @@ span {
   background-color: #e7e7e7;
 }
 
+.resizeimage img {
+  max-width: 100%;
+}
+
 .youtube{
   position:relative;
   width:100%;
