@@ -258,14 +258,13 @@ section {
     padding-top: 5rem;
     padding-bottom: 1rem;
   }
+  }
 
   /* Bigger than 550 */
   @media (min-width: 550px) {
-    article {
-      padding: 12rem 0 11rem;
+    article {padding: 12rem 0 11rem;}
     }
     /* Bigger than 1000 */
     @media (min-width: 1000px) {
-      article {
-        padding: 20rem 0 19rem;
+      article {padding: 20rem 0 19rem;}
       }
