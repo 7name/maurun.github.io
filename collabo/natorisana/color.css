@@ -1,0 +1,123 @@
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #ff61a8; }
+
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] ,
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #ffffff;
+  border-color: #ff97c8;
+}
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #ff97c8;
+  border-color: #ff97c8; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #ff97c8;
+  border-color: #ff97c8; }
+
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select,
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+textarea,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #ff97c8;
+  }
+label,
+legend,
+fieldset,
+input[type="checkbox"],
+input[type="radio"] ,
+label > .label-body,
+
+/* Style
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+span {
+  background: #ffe674;
+}
+
+.point-heading {
+  color: #ff97c8;
+}
+
+.bg {
+  background-image: url('bg.png');
+}
+
+.bg-footer {
+  background-image: url('bg.png');
+}
+
+  .section-title {
+    background-image: url('bg.png');
+  }
+
+  .card-multiplier {
+    color: #ff97c8;
+  }
+
+  @media (max-width: 1024px) {
+    .bg {
+      background: url('bg.png') no-repeat center center;
+    }
+    .bg-footer {
+      background: url('bg.png') no-repeat center center;
+    }
